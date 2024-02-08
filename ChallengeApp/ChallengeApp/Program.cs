@@ -1,14 +1,25 @@
-﻿float myNumber = float.MaxValue;
-Console.WriteLine(myNumber);
-myNumber = float.MinValue;
-Console.WriteLine(myNumber);
+﻿// zmienne tekstowe
 
-double myNumber2 = double.MaxValue;
-Console.WriteLine(myNumber2);
-myNumber2 = double.MinValue;
-Console.WriteLine(myNumber2);
+string name = "Adam";
+string surname = "Kamizelich";
+string result = name + surname;
+Console.WriteLine(result);
 
-decimal myNumber3 = decimal.MaxValue;
-Console.WriteLine(myNumber3);
-myNumber3 = decimal.MinValue;
-Console.WriteLine(myNumber3);    
+int age = 45;
+
+result = name + " " + surname + age;
+Console.WriteLine(result);
+
+string text = "1";
+int number = 1;
+Console.WriteLine(text);
+Console.WriteLine(number);
+
+int num = 1;
+int num2 = 2;
+
+string test = "Ala1" + num + num2;
+Console.WriteLine(test);
+
+test = "Ala1" + (num + num2);
+Console.WriteLine(test);
