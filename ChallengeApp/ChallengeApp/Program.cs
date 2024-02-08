@@ -1,24 +1,14 @@
-﻿// int myAge = 33;
+﻿float myNumber = float.MaxValue;
+Console.WriteLine(myNumber);
+myNumber = float.MinValue;
+Console.WriteLine(myNumber);
 
-int myAge = int.MaxValue;
-Console.WriteLine(myAge);
-myAge = int.MinValue;
-Console.WriteLine(myAge);
-myAge = 120;
-int newAge = myAge + 5;
-Console.WriteLine(newAge);
+double myNumber2 = double.MaxValue;
+Console.WriteLine(myNumber2);
+myNumber2 = double.MinValue;
+Console.WriteLine(myNumber2);
 
-uint myVar2 = uint.MaxValue;
-Console.WriteLine(myVar2);
-myVar2 = uint.MinValue;
-Console.WriteLine(myVar2);
-
-long myVar3 = long.MaxValue;
-Console.WriteLine(myVar3);
-myVar3 = long.MinValue; 
-Console.WriteLine(myVar3);
-
-ulong myVar4 = long.MaxValue;
-Console.WriteLine(myVar4);
-myVar4 = ulong.MinValue;
-Console.WriteLine(myVar4);
+decimal myNumber3 = decimal.MaxValue;
+Console.WriteLine(myNumber3);
+myNumber3 = decimal.MinValue;
+Console.WriteLine(myNumber3);    
