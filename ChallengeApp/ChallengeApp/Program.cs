@@ -1,16 +1,11 @@
-﻿// zmienne typu char
-string name = "Adam";
-char myVar = 'c';
-var result = name.ToArray();
-char end_line = '\n';
-Console.WriteLine(result);
-Console.WriteLine(end_line);
-Console.WriteLine(myVar);
+﻿var number1 = 50;
+var number2 = 10;
 
-
-// zmienna logiczna
-bool isActive = true;
-isActive = false;
-Console.WriteLine(isActive);
-var isValid = 5 > 6;
-Console.WriteLine(isValid);
+ if (number1 < number2)
+{
+    Console.WriteLine("JESTEM TUTAJ w LINI 6");
+}
+else
+{
+    Console.WriteLine("JESTEM TUTAJ w LINI 10");
+}
