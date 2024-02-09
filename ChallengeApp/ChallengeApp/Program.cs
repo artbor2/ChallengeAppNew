@@ -1,27 +1,16 @@
 ﻿// ==  != < > <= >=
 // && || !
-
-var name = "Adam";
 var age = 33;
 
-if (name == "Adam" && age < 50)
+if (age > 50)
 {
-    Console.WriteLine("JESTEM ADAMEM PRZED 50");
+    Console.WriteLine("50 latek");
 }
-else
+else if(age > 40)
 {
-    Console.WriteLine("JESTEM KIMŚ INNYM");
+    Console.WriteLine("40-50 latek ");
 }
-
-if (name == "Adam" || age < 50)
+else if(age > 30)
 {
-    Console.WriteLine("JESTEM ADAMEM LUB MAM MNIEJ NIŻ 50");
+    Console.WriteLine("30-39 latek");
 }
-else
-{
-    Console.WriteLine("JESTEM KIMŚ INNYM");
-}
-
-bool isTrue = true;
-Console.WriteLine(isTrue);
-Console.WriteLine(!isTrue);
