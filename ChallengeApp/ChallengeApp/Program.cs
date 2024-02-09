@@ -1,16 +1,19 @@
-﻿// ==  != < > <= >=
-// && || !
-var age = 33;
+﻿var age = 99;
+string name = "Adam";
 
 if (age > 50)
 {
-    Console.WriteLine("50 latek");
+    Console.WriteLine("MAM POWYZEJ  50 LAT");
+    if (name == "Adam")
+    {
+        Console.WriteLine("JESTEM ADAM");
+    }
+    else
+    {
+        Console.WriteLine("JESTEM KTOŚ INNY");
+    }
 }
-else if(age > 40)
+else 
 {
     Console.WriteLine("40-50 latek ");
-}
-else if(age > 30)
-{
-    Console.WriteLine("30-39 latek");
 }
