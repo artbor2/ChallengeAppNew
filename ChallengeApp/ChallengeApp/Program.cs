@@ -1,11 +1,27 @@
-﻿var number1 = 50;
-var number2 = 10;
+﻿// ==  != < > <= >=
+// && || !
 
- if (number1 < number2)
+var name = "Adam";
+var age = 33;
+
+if (name == "Adam" && age < 50)
 {
-    Console.WriteLine("JESTEM TUTAJ w LINI 6");
+    Console.WriteLine("JESTEM ADAMEM PRZED 50");
 }
 else
 {
-    Console.WriteLine("JESTEM TUTAJ w LINI 10");
+    Console.WriteLine("JESTEM KIMŚ INNYM");
 }
+
+if (name == "Adam" || age < 50)
+{
+    Console.WriteLine("JESTEM ADAMEM LUB MAM MNIEJ NIŻ 50");
+}
+else
+{
+    Console.WriteLine("JESTEM KIMŚ INNYM");
+}
+
+bool isTrue = true;
+Console.WriteLine(isTrue);
+Console.WriteLine(!isTrue);
